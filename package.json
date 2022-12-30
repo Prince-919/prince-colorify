@@ -1,0 +1,31 @@
+{
+  "name": "colorify",
+  "version": "1.0.0",
+  "description": "A library to colorify your console log",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prince-919/prince-colorify.git"
+  },
+  "keywords": [
+    "console logs colorify",
+    "colorify logs"
+  ],
+  "author": "Prince Sharma <princebbu260@gmail.com> ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Prince-919/prince-colorify/issues"
+  },
+  "homepage": "https://github.com/Prince-919/prince-colorify#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
